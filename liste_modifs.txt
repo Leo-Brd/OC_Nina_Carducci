@@ -1,0 +1,37 @@
+
+CHOSES A MODIFIER POUR AMELIORER LES PERFORMANCES, LE SEO ET L'ACCESSIBILITE DU SITE
+
+Performances :
+
+- Compresser les fichiers javascript
+- Minimiser le CSS
+- Charger le js en différé
+- Adapter la taille des images au contenant et mettre des attributs width et height
+- Compresser les images ( format webp ou avif )
+- Hierarchiser le chargement des images ( preload et lazy loading )
+- Supprimer les styles non utilisés
+- Debloquer le BFcache
+
+Accessibilité :
+
+- Mettre des attributs alt sur toutes les images
+- Ajouter un element title
+- Ajouter des labels au form
+- Corriger les liens sans noms
+- Ameliorer le ratio du contraste des couleurs
+- Ajouter l'attribut lang a la balise html
+- Mettre les titres dans le bon ordre et choisir les bonnes balises
+- Ajouter un curseur pointeur pour les images et boutons de la galerie
+- Ajouter des attributs aria pour les utilisateurs de lecteur d'ecran
+
+SEO :
+
+- Ajouter un title et les attributs alt
+- Ajouter une meta description
+- Mettre des balises header, footer, main ,section, article etc...
+- Ajouter des balises meta pour les reseaux sociaux
+
+
+
+
+
