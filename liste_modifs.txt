@@ -10,7 +10,6 @@ Performances :
 - Compresser les images ( format webp ou avif )
 - Hierarchiser le chargement des images ( preload et lazy loading )
 - Supprimer les styles non utilisés
-- Debloquer le BFcache
 
 Accessibilité :
 
