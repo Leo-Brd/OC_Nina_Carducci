@@ -43,7 +43,8 @@ PROBLEMES A REGLER
 - Problème de coloration des filtres réglé
 
 AMELIORATION DES PERFS
-- Utilisation des fichiers bootstrap minimisés ( 32 -> 68 )
+- Utilisation des fichiers bootstrap minimisés
+- Chargement des fichiers javascript en différé
 
 
 
