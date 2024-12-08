@@ -32,5 +32,21 @@ SEO :
 
 
 
+----------------------------------------------------------------------------------------------------------------
+
+
+
+Choses mofifiées dans l'ordre :
+
+PROBLEMES A REGLER
+- Problème de navigation dans la modale réglé
+- Problème de coloration des filtres réglé
+
+AMELIORATION DES PERFS
+- Utilisation des fichiers bootstrap minimisés ( 32 -> 68 )
+
+
+
+
 
 
