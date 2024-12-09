@@ -52,6 +52,7 @@ AMELIORATION DES PERFS
 AMELIORATION DU SEO 
 - Ajouter une balise title
 - Ajouter une meta description
+- Ajouter des attributs alt aux images
 
 
 
