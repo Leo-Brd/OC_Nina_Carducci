@@ -47,6 +47,10 @@ AMELIORATION DES PERFS
 - Chargement des fichiers javascript en différé
 - Compression des images au format webp
 - Redimensionner les images pour qu'elles correspondent à leur conteneur
+- Ajouter le lazy loading aux images
+
+AMELIORATION DU SEO 
+
 
 
 
