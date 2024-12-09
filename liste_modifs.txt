@@ -50,7 +50,7 @@ AMELIORATION DES PERFS
 - Ajouter le lazy loading aux images
 
 AMELIORATION DU SEO 
-
+- Ajouter une balise title
 
 
 
