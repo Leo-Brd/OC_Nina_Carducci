@@ -46,7 +46,7 @@ AMELIORATION DES PERFS
 - Utilisation des fichiers bootstrap minimisés
 - Chargement des fichiers javascript en différé
 - Compression des images au format webp
-
+- Redimensionner les images pour qu'elles correspondent à leur conteneur
 
 
 
