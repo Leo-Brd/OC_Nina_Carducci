@@ -56,7 +56,8 @@ AMELIORATION DU SEO
 - Ajouter des balises sémantiques
 
 AMELIORATION DE L'ACCESSIBILITE
--
+- Améliorer le contraste des boutons filtres
+- Ajouter l'attribut lang de la balise html
 
 
 
