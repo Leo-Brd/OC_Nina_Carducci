@@ -54,6 +54,7 @@ AMELIORATION DU SEO
 - Ajouter une meta description
 - Ajouter des attributs alt aux images
 - Ajouter des balises sémantiques
+- Ajouter une balise meta robots
 
 AMELIORATION DE L'ACCESSIBILITE
 - Améliorer le contraste des boutons filtres
@@ -61,6 +62,7 @@ AMELIORATION DE L'ACCESSIBILITE
 - Ajouter des liens entre les inputs et leurs libellés
 - Ajouter des placeholders et required aux inputs
 - Reorganiser la hiérarchie des titres
+- Ajouter des attributs title aux liens
 
 
 
