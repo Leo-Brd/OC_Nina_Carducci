@@ -121,6 +121,11 @@ body {
 	color: #000
 }
 
+.nav-link:hover {
+	cursor: pointer;
+	background-color: #F6D2B8;
+}
+
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
