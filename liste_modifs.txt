@@ -60,6 +60,7 @@ AMELIORATION DE L'ACCESSIBILITE
 - Ajouter l'attribut lang de la balise html
 - Ajouter des liens entre les inputs et leurs libellés
 - Ajouter des placeholders et required aux inputs
+- Reorganiser la hiérarchie des titres
 
 
 
