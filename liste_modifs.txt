@@ -70,4 +70,6 @@ AMELIORATION DU REFERENCEMENT LOCAL ET DES RESEAUX SOCIAUX
 - Modifier le titre et la description du site
 - Ajouter une fiche d'établissement Google
 - Ajouter Microformats
+- Ajouter les balises Open Graph
+- Ajouter les twitter cards
 
