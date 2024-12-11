@@ -18,9 +18,9 @@
 	</head>
 
 	<body>
-		<header class="top-header">
+		<header class="top-header" role="banner">
 			<h1 class="name">Nina Carducci</h1>
-			<div class="nav">   
+			<nav class="nav" role="navigation" aria-label="Navigation principale">
 				<ul>
 					<li><a href="#about" title="En savoir plus sur Nina">À propos</a></li>
 					<li><a href="#gallery" title="Découvrir la galerie photo de Nina">Galerie</a></li>
@@ -32,22 +32,23 @@
 							href="https://www.instagram.com/ninacarducci.photo/?hl=fr" 
 							target="_blank" 
 							title="Visiter le compte Instagram de Nina (s'ouvre dans un nouvel onglet)"
+							aria-label="Compte Instagram de Nina"
 						>
 							<img src="assets/images/instagram.webp" alt="Logo Instagram">
 						</a>
 					</li>
 				</ul>
-			</div>			
+			</nav>			
 		</header>
 
 		<main>
-			<section id="header">
+			<section id="header" role="region" aria-label="Carrousel de photos">
 
 				<article id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-					<div class="carousel-indicators">
-						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					<div class="carousel-indicators" role="tablist">
+						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" role="tab"></button>
+						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" role="tab"></button>
+						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" role="tab"></button>
 					</div>
 					<div class="carousel-inner">
 						<div class="carousel-item active">
@@ -60,18 +61,18 @@
 							<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" class="d-block w-100" alt="Mariage romantique avec un couple de jeunes mariés s'embrassant au centre d'une allée bordée de convives tenant des cierges magiques">
 						</div>
 					</div>
-					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" aria-label="Image précédente">
 						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 						<span class="visually-hidden">Previous</span>
 					</button>
-					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next" aria-label="Image suivante">
 						<span class="carousel-control-next-icon" aria-hidden="true"></span>
 						<span class="visually-hidden">Next</span>
 					</button>
 				</article>
 			</section>
 	
-			<section id="about">
+			<section id="about" role="region" aria-labelledby="about-me__title">
 				<div class="picture left">
 					<img src="./assets/images/nina.webp" alt="Portrait de la photographe Nina Carducci, regardant la caméra d'un air confiant">
 				</div>
@@ -85,10 +86,10 @@
 				</div>
 			</section>
 	
-			<section id="gallery">
-				<h2 class="title">Portfolio</h2>
+			<section id="gallery" role="region" aria-labelledby="gallery-title">
+				<h2 class="title" id="gallery-title">Portfolio</h2>
 				<article class="container py-3">
-					<div class="gallery">
+					<div class="gallery" aria-label="Galerie de photos">
 						<img data-gallery-tag="Concert" class="gallery-item" loading="lazy" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" alt="Foule endiablée s'ambiance lors d'un concert"/>
 						<img data-gallery-tag="Entreprises" class="gallery-item" loading="lazy" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp" alt="Homme d'affaire en costard cravate, les bras croisés"/>
 						<img data-gallery-tag="Entreprises" class="gallery-item" loading="lazy" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" alt="Femmes qui sourient lors d'une réunion d'entreprise"/>
@@ -101,7 +102,7 @@
 					</div>
 				</article>
 	
-				<aside class="quote">
+				<aside class="quote" role="complementary" aria-label="Citation de Richard Avedon">
 					<figure>
 						<blockquote>
 							<p class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</p>
@@ -111,10 +112,10 @@
 				</aside>
 			</section>
 	
-			<section id="services">
-				<h2 class="title">Mes services</h2>
+			<section id="services" role="region" aria-labelledby="services-title">
+				<h2 class="title" id="services-title">Mes services</h2>
 				<div class="container">
-					<article class="service">
+					<article class="service" aria-label="Shooting photo">
 						<div class="service__description">
 							<h3>Shooting photo</h3>
 							<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
@@ -125,7 +126,7 @@
 						</div>
 					</article>
 	
-					<article class="service">
+					<article class="service" aria-label="Retouches">
 						<div class="service__description">
 							<h3>Retouches</h3>
 							<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
@@ -136,7 +137,7 @@
 						</div>
 					</article>
 	
-					<article class="service">
+					<article class="service" aria-label="Album photos">
 						<div class="service__description">
 							<h3>Album photos</h3>
 							<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
@@ -149,7 +150,7 @@
 				</div>
 			</section>
 	
-			<aside class="quote">
+			<aside class="quote" role="complementary" aria-label="Citation de Richard Avedon">
 				<figure>
 					<blockquote>
 						<p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p>
@@ -160,10 +161,10 @@
 		</main>
 		
 
-		<footer id="contact">
+		<footer id="contact" role="contentinfo" aria-labelledby="contact-title">
 			<div class="container">
 				<div class="form-container">
-					<h2>Une question ? Une demande de devis ?</h2>
+					<h2 id="contact-title">Une question ? Une demande de devis ?</h2>
 					<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 					<form action="" method="post">
 						<label for="nom">Nom</label>
