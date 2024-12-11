@@ -67,6 +67,7 @@ AMELIORATION DU SEO
 - Ajouter une balise meta robots
 
 AMELIORATION DU REFERENCEMENT LOCAL
--
-
+- Modifier le titre et la description du site
+- Ajouter une fiche d'établissement Google
+- Ajouter Microformats
 
