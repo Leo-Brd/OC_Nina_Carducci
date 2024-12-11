@@ -49,13 +49,6 @@ AMELIORATION DES PERFS
 - Redimensionner les images pour qu'elles correspondent à leur conteneur
 - Ajouter le lazy loading aux images
 
-AMELIORATION DU SEO 
-- Ajouter une balise title
-- Ajouter une meta description
-- Ajouter des attributs alt aux images
-- Ajouter des balises sémantiques
-- Ajouter une balise meta robots
-
 AMELIORATION DE L'ACCESSIBILITE
 - Améliorer le contraste des boutons filtres
 - Ajouter l'attribut lang de la balise html
@@ -64,7 +57,16 @@ AMELIORATION DE L'ACCESSIBILITE
 - Reorganiser la hiérarchie des titres
 - Ajouter des attributs title aux liens
 - Ajouter curseur et coloration au survol des boutons filtres
+- Ajouter des attributs ARIA
 
+AMELIORATION DU SEO 
+- Ajouter une balise title
+- Ajouter une meta description
+- Ajouter des attributs alt aux images
+- Ajouter des balises sémantiques
+- Ajouter une balise meta robots
 
+AMELIORATION DU REFERENCEMENT LOCAL
+-
 
 
