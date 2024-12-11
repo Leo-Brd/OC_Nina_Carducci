@@ -56,7 +56,7 @@ AMELIORATION DE L'ACCESSIBILITE
 - Ajouter des placeholders et required aux inputs
 - Reorganiser la hiérarchie des titres
 - Ajouter des attributs title aux liens
-- Ajouter curseur et coloration au survol des boutons filtres
+- Ajouter curseur et coloration au survol des boutons filtres et des photos
 - Ajouter des attributs ARIA
 
 AMELIORATION DU SEO 
@@ -65,6 +65,7 @@ AMELIORATION DU SEO
 - Ajouter des attributs alt aux images
 - Ajouter des balises sémantiques
 - Ajouter une balise meta robots
+- Ajouter autres balises meta
 
 AMELIORATION DU REFERENCEMENT LOCAL ET DES RESEAUX SOCIAUX
 - Modifier le titre et la description du site
