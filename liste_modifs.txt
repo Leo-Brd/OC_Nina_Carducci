@@ -1,77 +1,39 @@
 
-CHOSES A MODIFIER POUR AMELIORER LES PERFORMANCES, LE SEO ET L'ACCESSIBILITE DU SITE
-
-Performances :
-
-- Compresser les fichiers javascript
-- Minimiser le CSS
-- Charger le js en différé
-- Adapter la taille des images au contenant et mettre des attributs width et height
-- Compresser les images ( format webp ou avif )
-- Hierarchiser le chargement des images ( preload et lazy loading )
-- Supprimer les styles non utilisés
-
-Accessibilité :
-
-- Mettre des attributs alt sur toutes les images
-- Ajouter un element title
-- Ajouter des labels au form
-- Corriger les liens sans noms
-- Ameliorer le ratio du contraste des couleurs
-- Ajouter l'attribut lang a la balise html
-- Mettre les titres dans le bon ordre et choisir les bonnes balises
-- Ajouter un curseur pointeur pour les images et boutons de la galerie
-- Ajouter des attributs aria pour les utilisateurs de lecteur d'ecran
-
-SEO :
-
-- Ajouter un title et les attributs alt
-- Ajouter une meta description
-- Mettre des balises header, footer, main ,section, article etc...
-- Ajouter des balises meta pour les reseaux sociaux
-
-
-
-----------------------------------------------------------------------------------------------------------------
-
-
-
-Choses mofifiées dans l'ordre :
+MODIFICATIONS APPORTEES :
 
 PROBLEMES A REGLER
-- Problème de navigation dans la modale réglé
-- Problème de coloration des filtres réglé
+- Problème de navigation dans la modale réglé ( Oubli d'un +1 dans le code Jquery )
+- Problème de coloration des filtres réglé ( Oubli d'ajouter la classe active au bouton cliqué )
 
 AMELIORATION DES PERFS
-- Utilisation des fichiers bootstrap minimisés
+- Utilisation des fichiers bootstrap minimisés et suppression des fichiers inutiles
 - Chargement des fichiers javascript en différé
 - Compression des images au format webp
 - Redimensionner les images pour qu'elles correspondent à leur conteneur
-- Ajouter le lazy loading aux images
+- Ajouter le lazy loading aux images en bas de page
 
 AMELIORATION DE L'ACCESSIBILITE
-- Améliorer le contraste des boutons filtres
-- Ajouter l'attribut lang de la balise html
-- Ajouter des liens entre les inputs et leurs libellés
+- Améliorer le contraste des boutons filtres avec le background
+- Ajouter l'attribut lang de la balise html pour spécifier la langue de la page
+- Lier les libellés avec leur input dans le formulaire
 - Ajouter des placeholders et required aux inputs
 - Reorganiser la hiérarchie des titres
 - Ajouter des attributs title aux liens
-- Ajouter curseur et coloration au survol des boutons filtres et des photos
-- Ajouter des attributs ARIA
+- Ajouter curseur pointeur et coloration au survol des boutons filtres et des photos
+- Ajouter des attributs ARIA ( label, role etc...)
 - Rendre les boutons filtres accessibles au clavier
 
 AMELIORATION DU SEO 
 - Ajouter une balise title
 - Ajouter une meta description
-- Ajouter des attributs alt aux images
-- Ajouter des balises sémantiques
+- Ajouter des textes alternatifs aux images
+- Ajouter des balises sémantiques ( header, main footer, article etc...)
 - Ajouter une balise meta robots
-- Ajouter autres balises meta
+- Ajouter d'autres balises meta
 
 AMELIORATION DU REFERENCEMENT LOCAL ET DES RESEAUX SOCIAUX
-- Modifier le titre et la description du site
-- Ajouter une fiche d'établissement Google
-- Ajouter Microformats
-- Ajouter les balises Open Graph
+- Modifier le titre et la description du site en précisant la localisation de la photographe
+- Ajouter des microformats pour renseigner les données du référencement local au navigateur
+- Ajouter les balises Open Graph pour les réseaux sociaux
 - Ajouter les twitter cards
-
+- Ajouter une fiche d'établissement Google
