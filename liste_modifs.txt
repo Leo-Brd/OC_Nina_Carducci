@@ -11,7 +11,7 @@ AMELIORATION DES PERFS
 - Compression des images au format webp
 - Redimensionner les images pour qu'elles correspondent à leur conteneur
 - Ajouter le lazy loading aux images en bas de page
-- Minimifier le CSS
+- Minimifier le CSS et le Javascript
 
 AMELIORATION DE L'ACCESSIBILITE
 - Améliorer le contraste des boutons filtres avec le background
